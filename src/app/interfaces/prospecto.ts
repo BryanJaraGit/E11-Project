@@ -1,8 +1,9 @@
 export interface Prospecto {
     id?: number;
-    nombre: string;
+    nombres: string;
     apellidos: string;
     telefono: number;
+    correo: string;
     direccion: string;
     servicio: string;
 }

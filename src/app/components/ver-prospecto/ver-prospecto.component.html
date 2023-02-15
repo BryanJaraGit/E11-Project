@@ -1,1 +1,18 @@
-<p>ver-prospecto works!</p>
+<div class="title">
+    <h1>Ver Prospecto</h1>
+</div>
+
+<div class="container">
+    <mat-card class="card">
+        <mat-card-title>Nombre</mat-card-title>
+        <mat-card-content>
+            <p><strong>Apellido: </strong>Apellido</p>
+            <p><strong>Telefono: </strong>Telefono</p>
+            <p><strong>Direccion: </strong>Direccion</p>
+            <p><strong>Servicio: </strong>Servicio</p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button [routerLink]="['/listProspecto']" mat-raised-button>Volver</button>
+        </mat-card-actions>
+    </mat-card>
+</div>

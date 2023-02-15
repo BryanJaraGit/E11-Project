@@ -2,3 +2,18 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.title{
+    background-color: royalblue;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+.title .home-button{
+    text-align:right
+}
+
+.container {
+    margin: 1.5% 20%;
+}
