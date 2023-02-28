@@ -2,14 +2,16 @@
     <h1>Ver Prospecto</h1>
 </div>
 
-<div class="container">
+<app-spinner *ngIf="loading"></app-spinner>
+
+<div *ngIf="prospecto != null" class="container">
     <mat-card class="card">
-        <mat-card-title>Nombre</mat-card-title>
         <mat-card-content>
-            <p><strong>Apellido: </strong>Apellido</p>
-            <p><strong>Telefono: </strong>Telefono</p>
-            <p><strong>Direccion: </strong>Direccion</p>
-            <p><strong>Servicio: </strong>Servicio</p>
+            <p><strong>Nombre(s): </strong>{{prospecto.nombres}}</p>
+            <p><strong>Apellido(s): </strong>{{prospecto.apellidos}}</p>
+            <p><strong>Telefono: </strong>{{prospecto.telefono}}</p>
+            <p><strong>Direccion: </strong>{{prospecto.direccion}}</p>
+            <p><strong>Servicio: </strong>{{prospecto.servicio}}</p>
         </mat-card-content>
         <mat-card-actions>
             <button [routerLink]="['/listProspecto']" mat-raised-button>Volver</button>

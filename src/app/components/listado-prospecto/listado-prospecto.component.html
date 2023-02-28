@@ -9,7 +9,7 @@
 
 <app-spinner *ngIf="loading"></app-spinner>
 
-<div class="container">
+<div *ngIf="dataSource.data.length > 0" class="container">
 
   <mat-form-field appearance="standard" class="form-field ms-2">
     <mat-label>Filtrar</mat-label>
@@ -53,9 +53,9 @@
             <button [routerLink]="['/agregarProspecto']" class="agregar" mat-raised-button color="primary">+ Nuevo</button>
           </th>
           <td mat-cell *matCellDef="let element">
-            <mat-icon [routerLink]="['/verProspecto/1']" matTooltip="Ver" class="search" fontIcon="search">search</mat-icon>
-            <mat-icon [routerLink]="['/editarProspecto/1']" matTooltip="Editar" class="edit" fontIcon="edit">edit</mat-icon>
-            <mat-icon (click)="eliminarProspecto()" matTooltip="Eliminar" class="delete" fontIcon="delete">delete</mat-icon>
+            <mat-icon routerLink="/verProspecto/{{element.id}}" matTooltip="Ver" class="search" fontIcon="search">search</mat-icon>
+            <mat-icon routerLink="/editarProspecto/1" matTooltip="Editar" class="edit" fontIcon="edit">edit</mat-icon>
+            <mat-icon (click)="eliminarProspecto(element.id)" matTooltip="Eliminar" class="delete" fontIcon="delete">delete</mat-icon>
           </td>
         </ng-container>
       

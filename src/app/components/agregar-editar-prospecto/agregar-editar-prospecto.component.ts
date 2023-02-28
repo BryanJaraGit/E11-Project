@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormControl, FormGroup, Validators} from '@angular/forms';
 import { Prospecto } from 'src/app/interfaces/prospecto';
+import { ProspectoService } from 'src/app/services/prospecto.service';
 
 @Component({
   selector: 'app-agregar-editar-prospecto',
@@ -15,7 +16,7 @@ export class AgregarEditarProspectoComponent implements OnInit {
   servicios = ['Sky Hd Prepago','Sky Hd Silver','Sky Hd Gold','Sky Hd Platinum','Combo Sky Hd Prepago + BTI 5MB','Combo Sky Hd Prepago + BTI 10MB'];
   selectVal: string = "";
 
-  constructor(private fb:FormBuilder) {
+  constructor(private fb:FormBuilder, private _ProspectoService:ProspectoService) {
     this.form = this.fb.group({
       nombres: ['', Validators.required],
       apellidos: ['', Validators.required],
@@ -40,8 +41,12 @@ export class AgregarEditarProspectoComponent implements OnInit {
       direccion: this.form.value.direccion,
       servicio: this.form.value.servicio,
     }
-    console.log(prospecto);
     
+    // Enviamos el objeto al Backend
+    this._ProspectoService.addProspecto(prospecto).subscribe(data => {
+      console.log(data);
+      
+    })
   }
 
 
