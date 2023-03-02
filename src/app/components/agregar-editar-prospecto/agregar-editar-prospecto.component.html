@@ -1,5 +1,5 @@
 <div class="title">
-    <h1>Crear prospecto</h1>
+    <h1>{{operacion}} prospecto</h1>
     <div class="home-button">
         <button [routerLink]="['/dashboard']" mat-fab color="warn">
           <mat-icon>home</mat-icon>
@@ -10,7 +10,7 @@
 
 <div class="container">
     <mat-card class="card" class="mat-elevation-z8">
-        <form [formGroup]="form" (ngSubmit)="agregarProspecto()">
+        <form [formGroup]="form" (ngSubmit)="agregarEditarProspecto()">
             <mat-grid-list cols="2" rowHeight="80px">
                 <mat-grid-tile [colspan]="2"><b>Datos personales</b></mat-grid-tile>
                 <mat-grid-tile>

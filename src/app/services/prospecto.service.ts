@@ -29,4 +29,8 @@ export class ProspectoService {
   addProspecto(prospecto: Prospecto): Observable<Prospecto>{
     return this.http.post<Prospecto>(`${this.myAppUrl}${this.myApiUrl}`, prospecto);
   }
+
+  updateProspecto(id:number, prospecto:Prospecto): Observable<void>{
+    return this.http.put<void>(`${this.myAppUrl}${this.myApiUrl}${id}`, prospecto);
+  }
 }
