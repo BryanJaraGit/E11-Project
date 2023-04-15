@@ -1,0 +1,301 @@
+<div class="title">
+    <h1>Paquetes</h1>
+    <div class="home-button">
+      <button [routerLink]="['/dashboard']" mat-fab color="warn">
+        <mat-icon>home</mat-icon>
+      </button>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Cards section -->
+    <div style="width: 90%; margin: 0 auto;">
+
+        <h2>Paquetes disponibles</h2>
+        <mat-grid-list cols="3" rowHeight="510px">
+          <mat-grid-tile
+  
+              [colspan]="1"
+              [rowspan]="1"
+              [style.background]="">
+  
+              <mat-card class="card-one">
+                <mat-card-header>
+                  <div mat-card-avatar class="example-header-image"></div>
+                  <mat-card-title>TV + Internet</mat-card-title>
+                  <mat-card-subtitle>Desde $425/Mes.</mat-card-subtitle>
+                </mat-card-header>
+                <div class="img-one"><img mat-card-image></div>
+                <mat-card-content>
+                  <p>
+                    Disfruta de tv e internet a un increíble precio, la suscripción tiene un costo de $256.
+                  </p>
+                </mat-card-content>
+                <mat-card-actions align="end">
+                  <button [routerLink]="['/agregarProspecto']" mat-raised-button color="primary">Contratar</button>
+                </mat-card-actions>
+              </mat-card>
+  
+          </mat-grid-tile>
+  
+          <mat-grid-tile
+  
+              [colspan]="1"
+              [rowspan]="1"
+              [style.background]="">
+  
+              <mat-card class="card-two">
+                <mat-card-header>
+                  <div mat-card-avatar class="example-header-image"></div>
+                  <mat-card-title>Internet</mat-card-title>
+                  <mat-card-subtitle>Desde $249/Mes.</mat-card-subtitle>
+                </mat-card-header>
+                <div class="img-two"><img mat-card-image></div>
+                <mat-card-content>
+                  <p>
+                    ¿Te imaginas navegar con internet satelital? Adquiérelo ya con precio inicial de $681!
+                  </p>
+                </mat-card-content>
+                <mat-card-actions align="end">
+                  <button [routerLink]="['/agregarProspecto']" mat-raised-button color="primary">Contratar</button>
+                </mat-card-actions>
+              </mat-card>
+  
+          </mat-grid-tile>
+  
+          <mat-grid-tile
+  
+              [colspan]="1"
+              [rowspan]="1"
+              [style.background]="">
+  
+              <mat-card class="card-three">
+                <mat-card-header>
+                  <div mat-card-avatar></div>
+                  <mat-card-title>Ya eres cliente?</mat-card-title>
+                  <mat-card-subtitle>Mejora tu paquete!</mat-card-subtitle>
+                </mat-card-header>
+
+                <div class="img-three"><img mat-card-image></div>
+                
+                <mat-card-content>
+                  <p>
+                    Puedes adquirir mas equipos como tv o modem de internet, contactanos.
+                  </p>
+                </mat-card-content>
+                <mat-card-actions align="end">
+                  <button [routerLink]="['/agregarProspecto']" mat-raised-button color="primary">Contratar</button>
+                </mat-card-actions>
+              </mat-card>
+  
+          </mat-grid-tile>
+        </mat-grid-list>
+        
+    </div>
+    <!-- Cards section -->
+
+<div class="precios">
+        <h2>Costos y requisitos de contratación</h2>
+
+    <!-- Cards section -->
+    <div style="width: 90%; margin: 0 auto;">
+
+        <mat-grid-list cols="3" rowHeight="510px">
+          <mat-grid-tile
+  
+              [colspan]="1"
+              [rowspan]="1"
+              [style.background]="">
+  
+              <mat-card class="card-four">
+                <mat-card-header>
+                  <div mat-card-avatar class="example-header-image"></div>
+                  <mat-card-title>Sky Hd Prepago</mat-card-title>
+                  <mat-card-subtitle>Costo: $249/Mes.</mat-card-subtitle>
+                </mat-card-header>
+                <div class="img-four"><img mat-card-image></div>
+                <mat-card-content>
+                  <p>
+                    ¿Te imaginas un paquete con la mejor programacion y a un bajo precio? Este paquete es para ti.
+                  </p>
+                </mat-card-content>
+                <mat-card-actions align="end">
+                  <button [routerLink]="['/agregarProspecto']" mat-raised-button color="primary">Contratar</button>
+                </mat-card-actions>
+              </mat-card>
+  
+          </mat-grid-tile>
+  
+          <mat-grid-tile
+  
+              [colspan]="1"
+              [rowspan]="1"
+              [style.background]="">
+  
+              <mat-card class="card-five">
+                <mat-card-header>
+                  <div mat-card-avatar class="example-header-image"></div>
+                  <mat-card-title>Sky Hd Silver</mat-card-title>
+                  <mat-card-subtitle>Desde $349/Mes.</mat-card-subtitle>
+                </mat-card-header>
+                <div class="img-five"><img mat-card-image></div>
+                <mat-card-content>
+                  <p>
+                    ¿Buscas mas experiencias y mayor cantidad de canales por un precio accesible?, este paquete es para ti.
+                  </p>
+                </mat-card-content>
+                <mat-card-actions align="end">
+                  <button [routerLink]="['/agregarProspecto']" mat-raised-button color="primary">Contratar</button>
+                </mat-card-actions>
+              </mat-card>
+  
+          </mat-grid-tile>
+  
+          <mat-grid-tile
+  
+              [colspan]="1"
+              [rowspan]="1"
+              [style.background]="">
+  
+              <mat-card class="card-six">
+                <mat-card-header>
+                  <div mat-card-avatar></div>
+                  <mat-card-title>Instalación gratis!</mat-card-title>
+                  <mat-card-subtitle>$0.00</mat-card-subtitle>
+                </mat-card-header>
+
+                <div class="img-six"><img mat-card-image></div>
+                
+                <mat-card-content>
+                  <p>
+                    ¿Requieres maximizar tu experiencia con canales y eventos bajo demanda al rededor del mundo? Este paquete te encantara!
+                  </p>
+                </mat-card-content>
+                <mat-card-actions align="end">
+                  <button [routerLink]="['/agregarProspecto']" mat-raised-button color="primary">Contratar</button>
+                </mat-card-actions>
+              </mat-card>
+  
+          </mat-grid-tile>
+        </mat-grid-list>
+        
+    </div>
+    <!-- Cards section -->
+
+    <!-- Cards section -->
+    <div style="width: 90%; margin: 0 auto;">
+
+        <mat-grid-list cols="3" rowHeight="510px">
+          <mat-grid-tile
+  
+              [colspan]="1"
+              [rowspan]="1"
+              [style.background]="">
+  
+              <mat-card class="card-seven">
+                <mat-card-header>
+                  <div mat-card-avatar class="example-header-image"></div>
+                  <mat-card-title>Requisitos de Contratación</mat-card-title>
+                  <mat-card-subtitle></mat-card-subtitle>
+                </mat-card-header>
+                <div class="img-seven"><img mat-card-image></div>
+                <mat-card-content>
+                  <p>
+                    Al enviar tus datos en el formulario, un asesor se comunicara contigo para solicitar los requisitos.
+                  </p>
+                </mat-card-content>
+                <mat-card-actions align="end">
+                  <mat-dialog-actions>
+                    <button mat-raised-button color="primary" (click)="openDialog()">Ser contactado</button>
+                  </mat-dialog-actions>
+                </mat-card-actions>
+              </mat-card>
+  
+          </mat-grid-tile>
+  
+          <mat-grid-tile
+  
+              [colspan]="1"
+              [rowspan]="1"
+              [style.background]="">
+  
+              <mat-card class="card-eight">
+                <mat-card-header>
+                  <div mat-card-avatar class="example-header-image"></div>
+                  <mat-card-title>Bolsa de datos</mat-card-title>
+                  <mat-card-subtitle>Desde $15.</mat-card-subtitle>
+                </mat-card-header>
+                <div class="img-eight"><img mat-card-image></div>
+                <mat-card-content>
+                  <p>
+                    ¿Se te acabaron los megas? revisa nuestra bolsa de datos a un increíble precio.
+                  </p>
+                </mat-card-content>
+                <mat-card-actions align="end">
+                  <mat-dialog-actions>
+                    <button mat-raised-button color="primary" (click)="openDialog()">Recargar</button>
+                  </mat-dialog-actions>
+                </mat-card-actions>
+              </mat-card>
+  
+          </mat-grid-tile>
+  
+          <mat-grid-tile
+  
+              [colspan]="1"
+              [rowspan]="1"
+              [style.background]="">
+  
+              <mat-card class="card-nine">
+                <mat-card-header>
+                  <div mat-card-avatar></div>
+                  <mat-card-title>Establecimientos</mat-card-title>
+                  <mat-card-subtitle></mat-card-subtitle>
+                </mat-card-header>
+
+                <div class="img-nine"><img mat-card-image></div>
+                
+                <mat-card-content>
+                  <p>
+                    Revisa los establecimientos con los que puedes realizar tus pagos.
+                  </p>
+                </mat-card-content>
+                <mat-card-actions align="end">
+                  <mat-dialog-actions>
+                    <button mat-raised-button color="primary" (click)="openDialog()">Contactar</button>
+                  </mat-dialog-actions>
+                </mat-card-actions>
+              </mat-card>
+  
+          </mat-grid-tile>
+        </mat-grid-list>
+        
+    </div>
+    <!-- Cards section -->
+
+</div>
+
+</div>
+
+<!-- Flooter section -->
+<div>
+  <mat-grid-list cols="1" rowHeight="535px">
+    <mat-grid-tile class="flooter">
+      <div class="aviso">
+        <h2><button mat-button><a href="https://www.sky.com.mx/avisoprivacidad" Target="_blank">Aviso de privacidad</a></button> </h2>
+      </div>
+      <div class="ubicacion">
+        <h2>Ubicación</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3701.320459102757!2d-102.30035388557745!3d21.92222856205298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429efaa2e6aaaab%3A0xdc4c333bb51f06f!2sTDA%20Telecomunicaciones!5e0!3m2!1ses-419!2smx!4v1679024940806!5m2!1ses-419!2smx" width="300" height="150" style="border:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h4>Av Independencia #1850, Jardines de la Concepción II, 20120 Aguascalientes, Ags.</h4>
+      </div>
+      <div class="ayuda">
+        <h2>Ayuda y atención</h2>
+        <h4>+52 4499120299</h4>
+        <a ><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+      
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
+<!-- End Flooter section -->

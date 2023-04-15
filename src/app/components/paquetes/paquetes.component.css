@@ -1,0 +1,158 @@
+.container{
+    margin-left: 40px;
+}
+
+.card-one {
+    max-width: 410px;
+    margin-top: 10px;
+  }
+  
+  /* .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  } */
+  
+  .card-two {
+    max-width: 350px;
+    margin-top: 10px;
+  }
+  
+  .card-three {
+    max-width: 410px;
+    margin-top: 10px;
+  
+  }
+  
+  .card-four {
+    max-width: 410px;
+    margin-top: 10px;
+  
+  }
+  
+  .card-five {
+    max-width: 410px;
+    margin-top: 10px;
+  
+  }
+  
+  .card-six {
+    max-width: 410px;
+    margin-top: 10px;
+  
+  }
+  
+  .card-seven {
+    max-width: 410px;
+    margin-top: 10px;
+  
+  }
+  
+  .card-eight {
+    max-width: 410px;
+    margin-top: 10px;
+  
+  }
+  
+  .card-nine {
+    max-width: 410px;
+    margin-top: 10px;
+  
+  }
+  
+  .img-one {
+    background-image: url("src/assets/tveinternet.jpeg");
+    background-size: cover;
+    height: 300px;
+  }
+  
+  .img-two {
+    background-image: url("src/assets/internet.jpeg");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+
+  }
+  
+  .img-three {
+    background-image: url("src/assets/soycliente.jpeg");
+    background-size: cover;
+    height: 300px;
+    width: 330px;
+  }
+
+  .img-four {
+    background-image: url("src/assets/SKY_PREPAGO.JPG");
+    background-size: cover;
+    height: 190px;
+    width: 330px;
+  }
+  .img-five {
+    background-image: url("src/assets/SKY_HD_SILVER.JPG");
+    background-size: cover;
+    height: 170px;
+    width: 330px;
+  }
+  .img-six {
+    background-image: url("src/assets/instalacion_gratis.jpeg");
+    background-size: cover;
+    height: 170px;
+    width: 300px;
+  }
+  .img-seven {
+    background-image: url("src/assets/requisitos_contratacion.jpeg");
+    background-size: cover;
+    height: 310px;
+    width: 310px;
+  }
+  .img-eight {
+    background-image: url("src/assets/Precios_Internet.jpeg");
+    background-size: cover;
+    height: 300px;
+  }
+  .img-nine {
+    background-image: url("src/assets/establecimientos.jpeg");
+    background-size: cover;
+    height: 320px;
+    width: 310px;
+  }
+
+  .flooter {
+    background-color: black;
+    margin-top: 30px;
+    width: 50px;
+  }
+  
+  .flooter h2{
+    color: aliceblue;
+  }
+  .flooter h4{
+    color: aliceblue;
+    margin-top: 20px;
+  }
+  .flooter .aviso{
+    text-align: left;
+    text-decoration: none;
+  }
+  
+  .flooter .aviso a{
+    text-align: left;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+  }
+  
+  .flooter .aviso :hover{
+    text-align: left;
+    text-decoration: none;
+    color: gray;
+  }
+  
+  
+  .flooter .ayuda{
+    text-align: center;
+  
+  }
+  
+  .flooter .ubicacion{
+    text-align: center;
+  }

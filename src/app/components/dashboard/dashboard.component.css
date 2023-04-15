@@ -40,3 +40,87 @@ mat-sidenav{
 .icono{
   margin-right: 10px;
 }
+
+.wallpaper {
+  background-image: url("src/assets/img.jpg");
+}
+
+.card-one {
+  max-width: 410px;
+  margin-top: 10px;
+}
+
+/* .example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+} */
+
+.card-two {
+  max-width: 410px;
+  margin-top: 10px;
+
+}
+
+.card-three {
+  max-width: 410px;
+  margin-top: 10px;
+
+}
+
+.img-one {
+  background-image: url("src/assets/tveinternet.jpeg");
+  background-size: cover;
+  height: 330px;
+}
+
+.img-two {
+  background-image: url("src/assets/internet.jpeg");
+  background-size: cover;
+  height: 330px;
+}
+
+.img-three {
+  background-image: url("src/assets/soycliente.jpeg");
+  background-size: cover;
+  height: 330px;
+}
+
+.flooter {
+  background-color: black;
+  margin-top: 30px;
+}
+
+.flooter h2{
+  color: aliceblue;
+}
+.flooter h4{
+  color: aliceblue;
+  margin-top: 20px;
+}
+.flooter .aviso{
+  text-align: left;
+  text-decoration: none;
+}
+
+.flooter .aviso a{
+  text-align: left;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.flooter .aviso :hover{
+  text-align: left;
+  text-decoration: none;
+  color: gray;
+}
+
+
+.flooter .ayuda{
+  text-align: center;
+
+}
+
+.flooter .ubicacion{
+  text-align: center;
+}

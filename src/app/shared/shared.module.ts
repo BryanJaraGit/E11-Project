@@ -23,6 +23,8 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatSelectModule} from '@angular/material/select';
+import {MatDialogModule} from '@angular/material/dialog';
+
 
 // Componentes
 import { SpinnerComponent } from './spinner/spinner.component';
@@ -52,7 +54,8 @@ import { SpinnerComponent } from './spinner/spinner.component';
     MatGridListModule,
     MatSelectModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatDialogModule
   ],
   exports: [
     MatSlideToggleModule,
@@ -74,7 +77,8 @@ import { SpinnerComponent } from './spinner/spinner.component';
     MatGridListModule,
     MatSelectModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatDialogModule
   ]
 })
 export class SharedModule { }

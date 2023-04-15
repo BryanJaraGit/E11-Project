@@ -1,0 +1,26 @@
+<button mat-icon-button style="float: right; margin: 5px;" matDialogClose>
+    <mat-icon>close</mat-icon>
+</button>
+
+<mat-dialog-content>
+    <header>
+        <h1>Contactanos</h1>
+    </header>
+    <p>
+        <mat-form-field>
+            <input matInput placeholder="Nombre">
+            <mat-icon matSuddix>person</mat-icon>
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field>
+            <input matInput placeholder="Teléfono">
+            <mat-icon matSuddix>phone</mat-icon>
+        </mat-form-field>
+    </p>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+    <button mat-raised-button color="primary">Enviar</button>
+    <button mat-raised-button color="warn" matDialogClose>Cancelar</button>
+</mat-dialog-actions>

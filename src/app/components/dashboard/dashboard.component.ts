@@ -12,8 +12,10 @@ export class DashboardComponent implements OnInit {
 
   // fillerNav = Array.from({length: 50}, (_, i) => `Nav Item ${i + 1}`);
   fillerNav = [
-    {name: 'Home',route:'', icon:''},
+    {name: 'Home',route:'', icon:'home'},
     {name: 'Ordendes',route:'/listProspecto', icon:'search'},
+    {name: 'Contratar ya',route:'/agregarProspecto', icon:'search'},
+    {name: 'Paquetes',route:'/paquetes', icon:'search'},
     {name: 'Acerca de',route:'/acercaDe', icon:'search'}
   ];
 

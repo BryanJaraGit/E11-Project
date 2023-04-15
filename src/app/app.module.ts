@@ -12,9 +12,12 @@ import { VerProspectoComponent } from './components/ver-prospecto/ver-prospecto.
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PaquetesComponent } from './components/paquetes/paquetes.component';
+import { DialogBodyComponent } from './components/dialog-body/dialog-body.component';
 
 // Modulos
 import { SharedModule } from './shared/shared.module';
+
 
 @NgModule({
   declarations: [
@@ -23,7 +26,9 @@ import { SharedModule } from './shared/shared.module';
     ListadoProspectoComponent,
     VerProspectoComponent,
     DashboardComponent,
-    AcercaDeComponent
+    AcercaDeComponent,
+    PaquetesComponent,
+    DialogBodyComponent
   ],
   imports: [
     BrowserModule,
